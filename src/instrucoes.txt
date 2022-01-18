@@ -1,0 +1,7 @@
+1 -> rode o docker build da imagem  
+     1.1 -> docker image build -t gabrielfariasz/conversao-temperatura:v1 (ou o nome que preferir
+
+2 -> crie um container com o nome utilizado na imagem
+    2.2 -> docker container run -d -p 8080:8080 gabrielfariasz/conversao-temperatura:v1
+
+feito! agora é possível acessar o servidor rodando no container através do endereço: localhost:8080 =)
